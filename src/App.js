@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import jobsData from "./db";
 function App() {
   const dispatch = useDispatch();
-  let { limit, add, filters, filterVal, cardItems } = useSelector(
+  let { limit, add, filterVal, cardItems } = useSelector(
     (store) => store.cardState
   );
   const handleInfiniteScroll = async () => {
