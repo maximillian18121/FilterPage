@@ -25,11 +25,17 @@ code {
 
 .filter-section{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap:2rem;
+}
+
+.refresh-button{
+  width:40%;
+  justify-content: center;
+  font-size: 0.3rem;
 }
 
 .select-input{
